@@ -1,0 +1,19 @@
+# Données non incluses dans ce dépôt
+*.wav
+*.mp3
+*.flac
+*.TextGrid
+*.csv
+*.dict
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
