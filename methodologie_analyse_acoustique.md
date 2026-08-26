@@ -10,7 +10,7 @@
 6. Regroupement des réalisations longues et brèves selon la qualité vocalique pour l'analyse principale, tout en conservant l'annotation d'origine.
 7. Extraction de F1 et F2 au milieu temporel de la voyelle, soit à 50 % de sa durée.
 8. Contrôle visuel dans Praat des mesures atypiques.
-9. Calcul des moyennes, écarts-types et différences `ΔF1` et `ΔF2`.
+9. Calcul des moyennes, et différences `F1` et `F2`.
 
 ## Paramètres Praat
 
