@@ -80,4 +80,3 @@ with open("dictionnaire_darija.txt", "w", encoding="utf-8") as f:
         f.write(f"{mot}\t\n")
 
 print("\nFichier 'mots_darija.txt' créé avec succès.")
-print("Il te reste à remplir la colonne de transcription pour chaque mot.")
