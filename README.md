@@ -33,7 +33,7 @@ coclico-darija-resources/
 
 Les scripts Praat servent à repérer les contextes emphatiques et non emphatiques dans le tier `phonemes` des TextGrid et à extraire les mesures de F1 et F2 au milieu temporel des voyelles retenues.
 
-Les consonnes emphatiques prises en compte sont `/tˤ dˤ sˤ zˤ rˤ lˤ/`, avec `/t d s z r l/` comme contreparties non emphatiques.
+Les consonnes emphatiques prises en compte sont `/tˤ dˤ sˤ zˤ/`, avec `/t d s z /` comme contreparties non emphatiques.
 
 La présélection repose sur l'adjacence segmentale dans le tier phonémique. Les occurrences sont ensuite vérifiées manuellement pour confirmer l'appartenance de la consonne et de la voyelle au même domaine syllabique.
 
@@ -59,9 +59,15 @@ Le générateur utilise notamment la convention X-SAMPA `G` pour `/ɣ/`.
 
 ## Ressources utilisées
 
-Le travail lexical s'appuie sur le texte du corpus CoCLiCo-darija et sur le **Darija Open Dataset (DODa)**.
+Ce dépôt rassemble les ressources produites dans le cadre du travail consacré à l’arabe marocain pour le projet CoCLiCo.
 
-Les enregistrements audio, les TextGrid, les fichiers CSV de travail et les dictionnaires finaux ne sont pas inclus dans cette version du dépôt. Le dépôt se concentre sur les scripts et la documentation méthodologique associés au mémoire.
+Le dossier data/audio/ contient les quatre enregistrements de parole lue réalisés auprès des locuteurs H22, H26, F22 et F24.
+
+Le dossier data/textgrids/ contient les segmentations manuelles réalisées sous Praat pour H22 et F22. Ces annotations comportent un tier phonémique utilisé comme matériel de référence pour le traitement automatique et pour l’étude acoustique présentée dans le mémoire.
+
+Le dossier data/dictionaries/ contient deux ressources en X-SAMPA : un dictionnaire corrigé de 2 844 entrées et un dictionnaire étendu de 43 253 entrées dont la validation reste partielle.
+
+Les scripts Python et Praat utilisés pour la constitution de ces ressources et pour l’analyse acoustique sont disponibles dans le dossier scripts/.
 
 ## Logiciels
 
