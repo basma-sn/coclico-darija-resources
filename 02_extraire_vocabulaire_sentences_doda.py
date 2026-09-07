@@ -11,7 +11,7 @@ def compter_arabe(texte):
 
     return len(re.findall(r'[\u0600-\u06FF]', str(texte)))
 
-# Trouver la colonne qui contient le plus d'arabe
+# Trouver la colonne qui contient les mots en alphabet arabe.
 scores = {}
 
 for col in df.columns:
@@ -21,7 +21,7 @@ colonne_arabe = max(scores, key=scores.get)
 
 print("Colonne arabe détectée :", colonne_arabe)
 
-# Garder les phrases qui contiennent de l'arabe
+# Garder les phrases en alphabet arabe.
 expressions_arabes = (
     df[colonne_arabe]
     .dropna()
@@ -36,7 +36,7 @@ expressions_arabes = expressions_arabes[
     )
 ]
 
-# Extraire les mots arabes
+# Extraire les mots en alphabet arabe
 mots = set()
 
 for phrase in expressions_arabes:
