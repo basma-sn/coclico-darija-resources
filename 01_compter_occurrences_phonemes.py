@@ -3,42 +3,54 @@ from pathlib import Path
 
 TEXTE = """
 waħd nnha:r tˤlaqaːt ʃʃəmʃ mʕa lʕʒaːʒ
-u kulˁa waħd fihum bda kibaːn ʕla laːxur
+u kula waħd fihum bda kibaːn ʕla laːxur
 ʃʃəmʃ katguːl ana səħ mnk alʕʒaːʒ, kantˤlq dˤdˤoː dja:li u kansˤxn lħaːl
-u ħəta ħaja makatqdi ʕlija wəla katzʕzʕni
-lʕʒaːʒ huwa jʒawbha u gaːl liha ama ana kanʒi mʕa ʃʃta u kandir lbrd
-ħəta mn lmdˤəlˤat kantˤijərhum
-ama ila saːqu lija lxba:r ʒaːj kidiru ʕlija nachra indaːrja f ttlfaza
-bqaw kitlaʒu ʕla ʃkun li fihum səħ mn laːxur
+u ħeta ħaʒa makatqdi ʕlija wəla katzəʕzəʕni
+lʕʒaːʒ huwa jʒawbha u gaːl liha ama ana kanʒi mʕa ʃʃta u kandir lbrd]
+ħəta mn lmdˤalˤat kantˤejərhum
+ʔama ila saːqu lija lxəba:r ʒaːj kidiru ʕlija nachra indaːrja f ttəlfaza
+bqaw kitlaʒu ʕla ʃkun li fihum səħ mn laːxor
 u ʕndo lʒurʔa bəch jbjən lqodˤorat djalu
-waħd ʃwija u huwa jduz waħd rrˤaʒəl
+waħd ʃwija u huwa jduz waħed 	
 ʃad tˤriq mn blad bʕida u ʒaj bəch jdˤor flmdina
-dak rrˤaʒəl məlwi fwaħd lkabu:tˤ sxuːn djal sˤuf
-u sxfaːn haz fidih poʃiːtˤa fiha piʒama u zˤina djal lkisan
-u gaʕ lwraq djalu ħit ʒaj jaxud lviza, ʕəndu vol f ʒuʒ simana:t
-baɣi jzˤor wldu fra:nsˤa t͡ʃuwəʃ ʕlih ħit kan mridˤ
+dak rrˤaʒəl məlwi fwaħed lkabu:tˤ sxuːn djal sˤuf
+u səxfaːn haz fidih poʃiːtˤa fiha piʒama u zˤina djal lkisan
+u gaʕ lwraq djalu ħit ʒaj jaxod lviza, ʕəndu vol f ʒuʒ simana:t
+baɣi jzˤor wəldu fra:nsˤa t͡ʃuwəʃ ʕlih ħit kan mridˤ
 u hadak nnha:r ɣadi jduwzu ʕənd saħbu li ʕəndo villa kbira f sˤontˤr vil
 dik zˤzˤina djal lkisan ʃraha lih cado
 ʃʃəmʃ u lʕʒaːʒ baːn lihum rrˤaʒəl flblan u huma jtaːfqu
 ʕla lˤi mʃa ħəta gləʕ rrˤaʒəl kabuːtˤo
-u tˤijəħ lih dəkchi li haz fʔidu huwa ssˤħiħ fihum
-fkr lʕʒaːʒ mzjaːn u gal mʕa rasˤo xasˤo jdir chi ʕasˤifa baʃ jtˤijrˤ lħwajʒ djal rrˤaʒəl
-u huwa jbda kisotˤ ʕla ħər ʒhdu
+u tˤijəħ lih dəkchi li haz fʔidu huwa sˤsˤħiħ fihum
+fkr lʕʒaːʒ mzjaːn u gal mʕa rasˤo xasˤo jdir chi ʕasˤifa baʃ jtˤejərˤ lħwajʒ djal rrˤaʒəl
+u huwa jbda kisotˤ ʕla ħar ʒəhdu
 u dar riħ li tˤijəħ ddˤjor u ʒʒbal
 u txləʕ ddʒaj u lɣnm li katrʕa f ʒʒnaːnaːt
-dˤlˤm lħal u dˤrb lbrq
-walaki:n kulma saːtˤ u kulma ħaːwəl jtˤijrˤ lkabu:tˤ djal rrˤaʒəl
+dˤalˤm lħal u dˤrb lbərq
+walaki:n kulma saːtˤ u kulma ħaːwəl jtˤejrˤ lkabu:tˤ djal rrˤaʒəl
 u rrˤaʒəl kiziːd jlwi ʕlih lħwajʒ u kiziːd jzˤijrˤ ʕlih smtˤa djal lkabu:tˤ
-u flxər ʕja lʕʒaːʒ u sˤxf bquwat sutˤaːn u huwa jhda
+u flxər ʕja lʕʒaːʒ u sˤxf bquwat sˤsˤotˤaːn u huwa jhda
 u gal ʃʃəmʃ bijni lija ʕlajach gadˤa
 ʃʃəmʃ galt lih araːk lfraːʒa daba tʃuf sijadk ʕlach qa:din
-u xərʒaːt ʃʃəmʃ u baːnt tˤlqaːt lħaraːra djalha
-ħma lħal ldaraʒat ʔaj waħd kan xarəʒ dak nnha:r t͡ʃuwətˤ lih wʒhu blħarara
-sxn rrˤaʒəl u ʒah sˤsˤhd
-u huwa jgul bəʃ nqdi ʃʃɣul dja:li dəɣija xasˤni nħijd had lkabuːtˤ
-qtlni sˤsˤhd haːd lʒaw mabqina faːhmiːn fih walu
-gləʕ
-
+u xərʒaːt ʃʃəmʃ u baːnt u tˤlqaːt lħaraːra djalha
+ħma lħal ldaraʒat ʔaj waħəd kan xarəʒ dak nnha:r t͡ʃuwetˤ lih wʒhu blħarara
+sxan rrˤaʒəl u ʒah sˤsˤahd
+u huwa jgul bəʃ nqdi ʃʃɣul dja:li dəɣija xasˤni nħijəd had lkabuːtˤ
+qtəlni sˤsˤahd haːd lʒaw mabqina faːhmiːn fih walu
+gləʕ lkabuːtˤ djalu u xʃaːh flpoʃiːtˤa mʕa lħwajʒ
+tma lʕʒaːʒ mabqaliːh ila jəʕtarəf bilˤa ʃʃəmʃ səħ mnu u bila maʕəndu zˤhar
+ʃʃəmʃ ʕʒbha lħal walaki:n lʕʒaːʒ bqa fih lħal bzaːf
+u ħəs braːssu dar xataːʔ ldaraʒat bəka mʕah ssma
+u hija tsˤob ʃta walaki:n ʃʃəmʃ bqat xarʒa
+rrˤaʒəl məskin maʕrəf majdir bqa ɣadi ʃaːd triqu
+u hija tħbss ʃʃta u lʒaw wəla zwin u xrj qawsˤa quzəħ blʔalwan djalu
+rrˤaʒəl blfrħa sˤona ʕla wlaːdu apel vidjo
+bəʃ jwərˤihum lmandˤar lɣariːb u jʕaːwəd lihum ʃnu wqəʕ lih ftriq
+u huwa jgul fxaːtru kun dˤaːrbat ʃʃəmʃ u lʕʒaːʒ tawaħd fihum maɣajrbəħ]
+ħit bla biːhum bħal had lmandˤar ʕmru kan ɣadi jkuːn
+səmʕatu ʃʃəmʃ u lʕʒaːʒ u farˤħu
+tsˤaːlħu u gaːlu lbəʕdijathum biːla bsˤħ ʕəndu lħaq maxasˤnaːch ndˤaːrbu
+rrˤaʒəl btaːsəm u fkr bila xasu jsˤlˤi waħd ʒuʒ rəkʕaːt məni jwsˤalˤ ldˤarˤ jħməd fiha rəbˤi u jʃəkru
 """
 
 # Liste des phonèmes à compter
@@ -46,9 +58,9 @@ PHONEMES = [
     # Voyelles longues
     "iː", "uː", "aː",
     # Emphatiques
-    "tˤ", "dˤ", "sˤ", "zˤ", "rˤ", "lˤ",
+    "tˤ", "dˤ", "sˤ", "zˤ", "rˤ",
     # Affriquées
-    "t͡ʃ", "d͡ʒ",
+    "t͡ʃ",
     # Occlusives
     "p", "b", "t", "d", "k", "g", "q", "ʔ",
     # Nasales
@@ -73,11 +85,11 @@ total = sum(compteur.values())
 CATEGORIES = [
     ("Occlusives",        ["b", "d", "t", "k", "g", "q", "ʔ", "p"]),
     ("Fricatives",        ["f", "s", "ʃ", "x", "ħ", "h", "v", "z", "ʒ", "ɣ", "ʕ"]),
-    ("Les emphatiques",   ["tˤ", "sˤ", "dˤ", "zˤ", "rˤ", "lˤ"]),
+    ("Les emphatiques",   ["tˤ", "sˤ", "dˤ", "zˤ", "rˤ"]),
     ("Nasales",           ["m", "n"]),
     ("Liquides",          ["l", "r"]),
     ("Approximantes",     ["w", "j"]),
-    ("Affriquées",        ["t͡ʃ", "d͡ʒ"]),
+    ("Affriquées",        ["t͡ʃ"]),
     ("Voyelles brèves",   ["a", "i", "u", "ə", "o"]),
     ("Voyelles longues",  ["aː", "iː", "uː"]),
 ]
