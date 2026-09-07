@@ -1,5 +1,6 @@
 # 02_extraire_occurrences_non_emphatiques.praat
-# analyse acoustique de l'emphase en arabe marocain
+# Construction de ressources numériques 
+# pour le traitement automatique de l'arabe marocain 
 # Etape 2 : extraction des contreparties non emphatiques et des voyelles immediatement adjacentes
 
 form Extraction des contextes non emphatiques
@@ -40,9 +41,8 @@ for i from 1 to n
         contrepartie$ = "zˤ"
     elsif consonne$ = "r"
         contrepartie$ = "rˤ"
-    elsif consonne$ = "l"
-        contrepartie$ = "lˤ"
-    endif
+
+     
 
     if contrepartie$ <> ""
         nbConsonnes = nbConsonnes + 1
