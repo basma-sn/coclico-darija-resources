@@ -3,9 +3,9 @@
 ## Chaîne de traitement
 
 1. Segmentation manuelle des enregistrements sous Praat.
-2. Présélection automatique des consonnes emphatiques `/tˤ dˤ sˤ zˤ rˤ lˤ/` et des voyelles immédiatement adjacentes.
+2. Présélection automatique des consonnes emphatiques `/tˤ dˤ sˤ zˤ rˤ/` et des voyelles immédiatement adjacentes.
 3. Vérification manuelle de l'appartenance de la consonne et de la voyelle au même domaine syllabique.
-4. Extraction parallèle des contreparties non emphatiques `/t d s z r l/`.
+4. Extraction parallèle des contreparties non emphatiques `/t d s z r /`.
 5. Nettoyage des occurrences et suppression des chevauchements problématiques entre EMPH et NEMPH.
 6. Regroupement des réalisations longues et brèves selon la qualité vocalique pour l'analyse principale, tout en conservant l'annotation d'origine.
 7. Extraction de F1 et F2 au milieu temporel de la voyelle, soit à 50 % de sa durée.
@@ -24,4 +24,4 @@
 
 ## Important
 
-Le premier script effectue une **présélection par adjacence segmentale**. Il ne réalise pas de syllabification automatique. La validation du domaine syllabique a été effectuée manuellement dans Praat.
+Le premier script effectue une **présélection par adjacence segmentale**. Il ne réalise pas de segmetation automatique. La validation du domaine syllabique a été effectuée manuellement dans Praat.
