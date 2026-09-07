@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+EOF
+
+git add .gitignore
+git commit -m "Ajout du .gitignore"
+git push
