@@ -1,6 +1,6 @@
 # Ressources CoCLiCo-darija
 
-Ce dépôt rassemble les ressources numériques produites dans le cadre d’un stage de Master 2 consacré à la constitution de ressources phonétiques et lexicales pour l’arabe marocain (darija), réalisé au sein du projet **CoCLiCo**.
+Ce dépôt rassemble les ressources numériques produites dans le cadre d’un stage de Master 2 consacré à la constitution de ressources numériques pour l’arabe marocain (darija), réalisé au sein du projet **CoCLiCo**.
 
 Il comprend un corpus de parole lue, des segmentations manuelles sous Praat, deux dictionnaires de prononciation en X-SAMPA, ainsi que les scripts Python et Praat utilisés pour la constitution et l’analyse de ces ressources.
 
