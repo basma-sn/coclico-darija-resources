@@ -53,9 +53,9 @@ Le dossier `data/audio/` contient les quatre enregistrements de parole lue réal
 Les locuteurs sont identifiés à l’aide des codes anonymisés suivants :
 
 - H22
-- H26
+- H27
 - F22
-- F24
+- F25
 
 Les fichiers sont fournis au format WAV.
 
