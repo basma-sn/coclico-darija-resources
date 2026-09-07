@@ -205,8 +205,6 @@ def apply_article_rule(word):
     return "ل" + word[2:]
 
 
-# Petits outils
-
 def normalize_word(word):
     word = word.replace(TATWEEL, "")
     word = word.replace("ؤ", "ءو")
@@ -424,7 +422,7 @@ def create_dictionary(csv_file=INPUT_FILE, output_file=OUTPUT_FILE):
 
 # Colab
 # Si le CSV manque, Colab ouvre la fenêtre d’upload
-# Télécharger D22.dict à la fin
+
 
 if __name__ == "__main__":
     colab_files = None
