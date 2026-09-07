@@ -1,7 +1,8 @@
 # 01_extraire_occurrences_emphatiques.praat
-# Projet : analyse acoustique de l'emphase en arabe marocain
+# Projet : Construction de ressources numériques 
+pour le traitement automatique de l'arabe marocain 
 # Étape 1 : présélection automatique des consonnes emphatiques et des voyelles immédiatement adjacentes
-# IMPORTANT : ce script ne syllabifie pas le corpus.
+# IMPORTANT : ce script ne sgmente pas le corpus.
 # Les occurrences extraites doivent ensuite être validées
 # manuellement dans Praat pour vérifier l'appartenance à une même syllabe.
 
