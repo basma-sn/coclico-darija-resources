@@ -98,7 +98,7 @@ Le script `scripts/python/corpus/01_compter_occurrences_phonemes.py` permet de c
 
 Les scripts du dossier `scripts/python/dictionary/` correspondent aux principales étapes de préparation des dictionnaires :
 
-1. extraction du vocabulaire du texte CoCLiCo-darija ;
+1. 1. extraction du vocabulaire de la fable d'Ésope enrichie ;
 2. extraction des mots arabes uniques à partir du fichier `sentences.csv` de DODa ;
 3. génération de propositions de prononciation en X-SAMPA ;
 4. fusion de plusieurs dictionnaires `.dict` ;
