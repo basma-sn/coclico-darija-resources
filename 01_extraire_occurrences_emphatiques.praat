@@ -35,7 +35,7 @@ for i from 1 to n
     consonne$ = Get label of interval: tier, i
     consonne$ = replace$(consonne$, " ", "", 0)
 
-    if consonne$ = "tˤ" or consonne$ = "dˤ" or consonne$ = "sˤ" or consonne$ = "zˤ" or consonne$ = "rˤ" or consonne$ = "lˤ"
+    if consonne$ = "tˤ" or consonne$ = "dˤ" or consonne$ = "sˤ" or consonne$ = "zˤ" or consonne$ = "rˤ" 
         nbEmphatiques = nbEmphatiques + 1
 
        
