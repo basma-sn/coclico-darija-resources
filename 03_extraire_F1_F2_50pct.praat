@@ -75,7 +75,7 @@ for ligne from 1 to nombre_lignes
         # Regroupement phonologique retenu dans l'étude :
         # [a:] -> /a/, [i:] -> /i/, [u:] -> /u/ ;
         # une réalisation [o] déjà classée comme /u/ dans voyelle_analyse
-        # reste donc dans la catégorie /u/.
+        # reste dans la catégorie /u/.
         voyelle_qualite$ = ""
         if voyelle_analyse$ = "a" or voyelle_analyse$ = "a:"
             voyelle_qualite$ = "a"
