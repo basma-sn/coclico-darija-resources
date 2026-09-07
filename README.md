@@ -1,4 +1,4 @@
-# Ressources CoCLiCo-darija
+#  Ressources CoCLiCo-darija
 
 Ce dépôt rassemble les ressources numériques produites dans le cadre d’un stage de Master 2 consacré à la constitution de ressources phonétiques et lexicales pour l’arabe marocain (darija), réalisé au sein du projet **CoCLiCo**.
 
@@ -37,8 +37,8 @@ coclico-darija-resources/
 │
 └── docs/
     ├── methodologie_analyse_acoustique.md
-    └── structure_csv.md
-Données et ressources produites
+    └── structure_csv.md##
+## Données et ressources produites
 Enregistrements audio
 
 Le dossier data/audio/ contient les quatre enregistrements de parole lue réalisés dans le cadre du corpus CoCLiCo-darija.
@@ -52,13 +52,13 @@ F24
 
 Les fichiers sont fournis au format WAV.
 
-Segmentations manuelles
+## Segmentations manuelles
 
 Le dossier data/textgrids/ contient les segmentations manuelles réalisées sous Praat pour les locuteurs H22 et F22.
 
 Les fichiers TextGrid comportent un niveau d’annotation phonémique utilisé comme matériel de référence pour le traitement automatique ainsi que pour l’étude acoustique de l’emphase présentée dans le mémoire.
 
-Dictionnaires de prononciation
+## Dictionnaires de prononciation
 
 Le dossier data/dictionaries/ contient deux dictionnaires de prononciation en X-SAMPA :
 
@@ -67,7 +67,7 @@ un dictionnaire étendu de 43 253 entrées, offrant une couverture lexicale plus
 
 Ces ressources ont été préparées afin de permettre leur utilisation dans SPPAS pour le traitement automatique de l’arabe marocain.
 
-Scripts Praat
+## Scripts Praat
 
 Les scripts du dossier scripts/praat/ servent à repérer les contextes emphatiques et non emphatiques dans le niveau d’annotation phonemes des fichiers TextGrid et à extraire les mesures acoustiques de F1 et F2.
 
@@ -77,12 +77,12 @@ La présélection repose sur l’adjacence segmentale dans le niveau phonémique
 
 Les mesures de F1 et F2 sont effectuées à 50 % de la durée de la voyelle à l’aide de la méthode de Burg implémentée dans Praat. Les paramètres utilisés sont documentés dans docs/methodologie_analyse_acoustique.md.
 
-Scripts Python
+### Scripts Python
 Corpus
 
 Le script scripts/python/corpus/01_compter_occurrences_phonemes.py permet de compter les occurrences des phonèmes dans la transcription du texte utilisé pour constituer le corpus de parole lue.
 
-Dictionnaire de prononciation
+### Dictionnaire de prononciation
 
 Les scripts du dossier scripts/python/dictionary/ correspondent aux principales étapes de préparation des dictionnaires :
 
@@ -94,7 +94,7 @@ suppression des doublons strictement identiques tout en conservant les variantes
 
 Le générateur utilise notamment la convention X-SAMPA G pour représenter /ɣ/.
 
-Documentation
+### Documentation
 
 Le dossier docs/ contient des informations complémentaires concernant :
 
@@ -106,7 +106,7 @@ Les ressources lexicales mobilisées pour la construction du dictionnaire compre
 
 Les traitements acoustiques et les segmentations ont été réalisés avec Praat, tandis que les scripts de traitement de corpus et de dictionnaires ont été développés en Python.
 
-Logiciels et outils
+### Logiciels et outils
 Praat
 Python 3
 pandas
